@@ -11,7 +11,7 @@
 <body>
     <a href="logout.php">logga ut</a>
     <?php
-    include "connection.php";
+    include "konekt.php";
 
     $sql = "SELECT * FROM users";
     $result = $conn->query($sql);
