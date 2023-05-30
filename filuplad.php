@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="uploadOk.php" method="POST" enctype="multipart/form-data">
+    <form action="Ok.php" method="POST" enctype="multipart/form-data">
         <label for="file">välj fil</label>
         <input type="file" name="fileToUpload">
         <button type="submit" name="submit" value="submit">Upload file</button>
